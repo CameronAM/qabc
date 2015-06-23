@@ -1,0 +1,91 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /* padding top by nav height */
+  padding-top: 158px;
+}
+
+/* active menu item highlighting - the hack way */
+body.home .navitem-home,
+body.prizes .navitem-prizes,
+body.results .navitem-results,
+body.terms .navitem-terms,
+body.qld .navitem-qld,
+body.contact .navitem-contact {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+.carousel, .carousel .item {
+  height: 200px;
+  background: none;
+  margin-bottom: 0;
+}
+.carousel-caption { 
+  padding-bottom: 0;
+  padding-top: 0;
+  text-shadow: none;
+}
+.carousel .item  h4 {
+  color: black;
+}
+.carousel-control.right,.carousel-control.left {
+  background-image: none;
+  color: #CCC;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* stuff for SMALL screen only  */
+@media screen and (max-width:768px){
+  body {
+    padding-top: 50px;
+  }
+  .navbar-default .navbar-brand {
+    height: 50px;
+    padding: 5px;
+  }
+  .navbar-default .navbar-brand img {
+    height: 40px;
+  }
+}
+/* stuff for LARGE screen only  */
+@media screen and (min-width:768px){
+  .navbar-nav {
+    margin-top: 108px;
+  }
+  .navbar-default .navbar-brand {
+    height: 158px; /* 128 logo + 15 padding x 2 */
+  }  
+}
+
+/* general */
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
