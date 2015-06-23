@@ -4,10 +4,10 @@ var sponsorList =
   [
     {name: "Craftbrewer", logo: "logos/craftbrewer.jpg", url: "http://craftbrewer.com.au/"},
     {name: "Brewers Choice", logo: "logos/brewerschoice.jpg", url: "http://brewerschoice.com.au/"},
-    {name: "Little Creatures", logo: "logos/little_creatures.jpeg", url: "https://littlecreatures.com.au/"},
+    // 2014 sponsors {name: "Little Creatures", logo: "logos/little_creatures.jpeg", url: "https://littlecreatures.com.au/"},
     {name: "Cryer Malt", logo: "logos/cryermalt.jpg", url: "http://cryermalt.com.au/"},
     {name: "Wyeast", logo: "logos/wyeast.jpg", url: "http://www.wyeastlab.com/"},
-    {name: "Australian National Homebrew Conference", logo: "logos/ANHC.jpg", url: "http://anhc.com.au/"},
+    // 2014 sponsors {name: "Australian National Homebrew Conference", logo: "logos/ANHC.jpg", url: "http://anhc.com.au/"},
     {name: "Craft", logo: "logos/craft.png", url: "http://craftwinestore.com/"},
     {name: "The Charming Squire", logo: "logos/squires.png", url: "http://www.jamessquire.com.au/brewbars/the-charming-squire-queensland/"}
   ];
