@@ -7,18 +7,18 @@
     <meta name="description" content="The Queensland Amateur Brewing Championship">
     <meta name="keywords" content="qabc,brisbane,queensland,amateur,brewing,championship,beer,brew,competition,entry,prizes,sponsors,grain,barley,hops,yeast,babbs,brewers">
     <meta name="Copyright" content="Queensland Amateur Brewing Championship © 2008-2014" />
-    
+
     <meta property="og:url"         content="http://qabc.org.au" />
-    <meta property="og:title"       content="Queensland Amateur Brewing Championship" /> 
-    <meta property="og:description" content="The Queensland Amateur Brewing Championship" /> 
-    
+    <meta property="og:title"       content="Queensland Amateur Brewing Championship" />
+    <meta property="og:description" content="The Queensland Amateur Brewing Championship" />
+
     <link rel="shortcut icon" href="favicon.ico">
 
     <title>Queensland Amateur Brewing Championship</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -31,11 +31,22 @@
   </head>
   <body class="prizes">
     <div data-bind="template: { name: 'navigation' }"></div>
-  
-    
-    <div class="container">      
+
+
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <p><strong>Champion Brewer:</strong> TBC</p>
+          <p><strong>Champion Beer:</strong> TBC</p>
+          <p><strong>Category Prizes:</strong><br>
+              1st Place in Beer categories: TBC<br>
+              1st Place in Cider category: TBC<br>
+              1st Place in Mead category: TBC<br>
+              2nd Place (all categories): TBC<br>
+              3rd, 2nd and 1st Place (all categories): TBC
+          </p>
+        </div>
+        <!-- <div class="col-md-12">
           <p><strong>Champion Brewer:</strong> Full Conference Package courtesy of ANHC 4 with economy flights and accommodation courtesy of QABC</p>
           <p><strong>Champion Beer:</strong> Dinner and Drinks for 2 at the Charming Squire Brewbar in Brisbane, courtesy of James Squire</p>
           <p><strong>Category Prizes:</strong><br>
@@ -44,24 +55,24 @@
               1st Place in Mead category: Bulk Honey package from Craft Wine Store<br>
               2nd Place (all categories): Shop voucher from Brewers Choice<br>
               3rd, 2nd and 1st Place (all categories): Direct Pitch Activator pack from Wyeast
-          </p>          
-        </div>
+          </p>
+        </div> -->
       </div>
     </div>
-    
-    
+
+
     <div data-bind="template: { name: 'sponsors' }"></div>
-    
+
     <div data-bind="template: { name: 'footer' }"></div>
-  
-    <script src="js/jquery.min.js"></script>    
+
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
     <script src="js/knockout-3.1.0.js"></script>
     <script src="js/koExternalTemplateEngine.min.js"></script>
     <script src="js/sponsors.js"></script>
-    
-    <script>    
+
+    <script>
       infuser.defaults.templateSuffix = ".tmpl.html";
       infuser.defaults.templateUrl = "templates";
       ko.applyBindings(new SponsorsViewModel());
